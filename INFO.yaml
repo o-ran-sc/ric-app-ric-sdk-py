@@ -1,0 +1,63 @@
+---
+project: 'ric-sdk-py'
+project_creation_date: '2021-02-19'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &oran_ric_app_ptl
+    name: 'Matti Hiltunen'
+    email: 'hiltunen@research.att.com'
+    id: 'MattiHiltunen'
+    company: 'AT&T Labs-Research'
+    timezone: 'America/New_York'
+primary_contact: *oran_ric_app_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.o-ran-sc.org/projects/'
+    key: 'ric_sdk_py'
+mailing_list:
+    type: 'groups.io'
+    url: 'https://lists.o-ran-sc.org/g/main'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#oran'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.o-ran-sc.org/display/'
+      url: ''
+      server: 'freenode.net'
+      channel: '#oran'
+      repeats: ''
+      time: ''
+repositories:
+    - ric-app/ric-sdk-py
+committers:
+    - <<: *oran_ric_app_ptl
+    - name: 'Thomas Vachuska'
+      email: 'tom@opennetworking.org'
+      company: 'ONF'
+      id: 'vachuska'
+      timezone: 'America/San_Francisco'
+    - name: 'Adib Rastegarnia'
+      email: 'adib@opennetworking.org'
+      company: 'ONF'
+      id: 'arastegarnia'
+      timezone: 'America/San_Francisco'
+    - name: 'Ray Milkey'
+      email: 'ray@opennetworking.org'
+      company: 'ONF'
+      id: 'rayonf'
+      timezone: 'America/San_Francisco'
+    - name: 'Jordan Halterman'
+      email: 'jordan@opennetworking.org'
+      company: 'ONF'
+      id: 'kuujo'
+      timezone: 'America/San_Francisco'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://wiki.o-ran-sc.org/display/TOC#ORANSCTechnicalOversightCommittee(TOC)-20210203'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
